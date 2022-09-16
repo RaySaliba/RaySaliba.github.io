@@ -9,17 +9,144 @@
         </header>
         <table width ="700px">
             <tr>
-                <td><label for="date">When did you use our service?</label></td>
-                <td><label for="productName">Name of Product or service</label></td>
+                <td><label for="date"> <h4>When did you use our service?</h4></label></td>
+                <td><label for="product"> <h4>Name of Product or service</h4></label></td>
             </tr>
             <tr>
                 <td>
                   <input class="dateInput" type="date" name="date" />
                 </td>
                 <td>
-                  <input type="text" name="productName" />
+                  <input type="text" name="product" />
                 </td>
+            </tr>
+            <tr>
+                <td><h4>Overall, How satisfied are you with the product or service</h4></td>
+            </tr>
+            <tr>
+              <td>
+                <input type="radio" name="satisfied" >
+                <label for="">Very Satisfied</label>
+            </td>
+            <td>
+                <input type="radio" name="satisfied" >
+                <label for=""> Satisfied</label><br>
+            </td>
+            </tr>
+            <tr>
+            <td>
+                <input type="radio" name="satisfied" >
+                <label for="">Neutral</label>
+            </td>
+            <td>
+                <input type="radio" name="satisfied" >
+                <label for=""> Unsatisfied</label><br>
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="satisfied" >
+                    <label for="">Very Unsatisfied</label>
+                </td>
+                <td>
+                    <input type="radio" name="satisfied" >
+                    <label for=""> N/A</label><br>
+                </td>
+                </tr>
+            </br>
+        </br>
+        <tr>
+            <td><h4>Did our product or service meet your expectations?</h4></td>
+        </tr>
+        <tr>
+          <td>
+            <input type="radio" name="expectation" >
+            <label for="">Yes</label>
+        </td>
+        <td>
+            <input type="radio" name="expectation" >
+            <label for=""> No</label><br>
+        </td>
+        </tr>
+        </br>
+    </br>
+    <tr>
+        <td><h4>Would you recommend this product or service to a friend?</h4></td>
+    </tr>
+    <tr>
+      <td>
+        <input type="radio" name="recommendation" >
+        <label for="">Yes</label>
+    </td>
+    <td>
+        <input type="radio" name="recommendation" >
+        <label for=""> No</label><br>
+    </td>
+    </tr>
+    <tr>
+        <td><h4>What aspect of the product or service were you most satisfied by?</h4></td>
+    </tr>
+    <tr>
+      <td>
+        <input type="radio" name="most" >
+        <label for="">Quality</label>
+    </td>
+    <td>
+        <input type="radio" name="most" >
+        <label for=""> Price</label><br>
+    </td>
+    </tr>
+    <tr>
+        <td>
+          <input type="radio" name="most" >
+          <label for="">Customer Service</label>
+      </td>
+      <td>
+          <input type="radio" name="most" >
+          <label for=""> Installation or first use experience</label><br>
+      </td>
+      </tr>
+      <tr>
+        <td><h4>What aspect of the product or service were you least satisfied by?</h4></td>
+    </tr>
+    <tr>
+
+    </tr>
+    <tr>
+      <td>
+        <input type="radio" name="least" >
+        <label for="">Quality</label>
+    </td>
+    <td>
+        <input type="radio" name="least" >
+        <label for=""> Price</label><br>
+    </td>
+    </tr>
+    <tr>
+        <td>
+          <input type="radio" name="least" >
+          <label for="">Customer Service</label>
+      </td>
+      <td>
+          <input type="radio" name="least" >
+          <label for=""> Installation or first use experience</label><br>
+      </td>
+      </tr>
+        <tr>
+            <td>
+                <h4>Additional comments:</h4>
+            </td>
+        </tr>
+            <tr>
+                <td>
+                <textarea name="Comments" id="" placeholder="type here..." cols="60" rows="5"></textarea>
+                </td>
+                
+            </tr>
         </table>
+
+        <button type="button">Submit</button>
+        
 
     </body>
 </html>

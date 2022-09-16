@@ -11,3 +11,23 @@ body{
     color: #78363F;
     
 }
+button {
+    background-color: #717071;
+    color: white;
+    width: 150;
+    height : 40;
+    margin-left:50%;
+    margin right:50%;
+
+}
+table{
+    margin-left:30%;
+    margin right:50%;
+
+
+  }
+comments{
+    margin-left:30%;
+    margin right:50%;
+
+}
